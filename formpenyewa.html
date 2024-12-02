@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulir Sewa</title>
+    <link rel="stylesheet" href="style2.css?v=1.0">
+</head>
+<body>
+    <main>
+        <div class="form-container">
+            <h1>Formulir Sewa Mobil</h1>
+            <form action="prosespeminjaman.php" method="POST">
+                <label for="no_ktp">No KTP:</label>
+                <input type="text" id="no_ktp" name="no_ktp" required>
+
+                <label for="nama">Nama Penyewa:</label>
+                <input type="text" id="nama" name="nama" required>
+
+                <label for="alamat">Alamat:</label>
+                <input type="text" id="alamat" name="alamat" required>
+
+                <label for="telp">No Telp:</label>
+                <input type="text" id="telp" name="telp" required>
+
+                <label for="no_polisi">No Polisi:</label>
+                <input type="text" id="no_polisi" name="no_polisi" required>
+
+                <button type="submit">Sewa Mobil</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
